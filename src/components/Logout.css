@@ -1,0 +1,21 @@
+.logout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logout__btn{
+     padding: 17px;
+    margin-top: 10px;
+    background: #222;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.user__name{
+    color: #88dd1a;
+}
