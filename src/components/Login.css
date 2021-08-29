@@ -5,6 +5,9 @@
 .login__form{
     display: flex;
     flex-direction: column;
+    margin: auto;
+    width: 400px;
+    align-items: center;
 }
 
 .login__form > h1{
@@ -22,10 +25,12 @@
     outline: none;
     border: 1px solid #444;
     font-size: 20px;
+    margin: auto;
 }
 
 .submit__btn{
     padding: 17px;
+    margin: auto;
     margin-top: 10px;
     background: #222;
     border: none;
