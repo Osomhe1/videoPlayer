@@ -32,14 +32,17 @@ e.preventDefault();
           <input type='name'
            placeholder='name'
             value={name} 
+            required
             onChange={(e) =>{setName(e.target.value)}} 
             />
           <input type='email' 
           placeholder='email'  
+          required
           value={email} onChange={(e) => {setEmail(e.target.value)}} 
           />
           <input type='password' 
           placeholder='password' 
+          required
           value={password} onChange={(e) =>{setPassword(e.target.value)}} 
           />
 
