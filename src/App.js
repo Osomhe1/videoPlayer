@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import { useSelector } from 'react-redux';
 import './App.css';
 import { selectUser } from './components/features/UserSlice';
@@ -9,7 +8,9 @@ function App() {
 
   const user = useSelector(selectUser)
 
-  return <div className='App'>{user ? <Logout /> : <Login />}</div>
+  return <div className='App'>
+    {user ? <Logout /> : <Login />}
+    </div>
 }
 
 export default App;
